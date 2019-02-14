@@ -1,0 +1,86 @@
+{
+  "project_info": {
+    "project_number": "805919224070",
+    "firebase_url": "https://megzometer.firebaseio.com",
+    "project_id": "megzometer",
+    "storage_bucket": "megzometer.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:805919224070:android:5d4ef12d7b5c1c24",
+        "android_client_info": {
+          "package_name": "com.example.magdymetre"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "805919224070-2p8q14ajbgecv8m75sou2qpda3af3acr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJsR34rOtxNU_kGAfgCfXAWpDnDzD3QmA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:805919224070:android:702d4f1ec764a503",
+        "android_client_info": {
+          "package_name": "com.example.thermonitor"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "805919224070-lg4k7ho7cfc9336kkhm5tfjhbjodqt46.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.thermonitor",
+            "certificate_hash": "73cc2581419e0116a83d86ccc6c6c2ba4a9d6b4a"
+          }
+        },
+        {
+          "client_id": "805919224070-2p8q14ajbgecv8m75sou2qpda3af3acr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJsR34rOtxNU_kGAfgCfXAWpDnDzD3QmA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "805919224070-2p8q14ajbgecv8m75sou2qpda3af3acr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
