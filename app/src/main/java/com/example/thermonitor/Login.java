@@ -22,7 +22,7 @@ import org.w3c.dom.Text;
 public class Login extends AppCompatActivity implements View.OnClickListener {
 
     private Button         buttonLogin;
-    private Button         textNotMember;
+    private TextView         textNotMember;
     private EditText       editTextPassword;
     private EditText       editTextEmail;
     private ProgressDialog progressDialog;
@@ -35,7 +35,7 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
 
         editTextEmail    = (EditText) findViewById(R.id.editTextEmail);
         buttonLogin      = (Button) findViewById(R.id.buttonLogin);
-        textNotMember    = (Button) findViewById(R.id.textNotMember);
+        textNotMember    = (TextView) findViewById(R.id.textNotMember);
         editTextPassword = (EditText) findViewById(R.id.editTextPassword);
 
 

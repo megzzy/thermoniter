@@ -64,8 +64,6 @@
         app:layout_constraintTop_toBottomOf="@+id/editTextPassword" />
 
 
-
-
     <TextView
         android:id="@+id/editText2"
         android:layout_width="0dp"
@@ -74,14 +72,16 @@
         android:ems="10"
         android:inputType="textPersonName"
         android:text="Login Page"
-        android:textColor="#CE8328"
-        app:layout_constraintBottom_toTopOf="@+id/editTextEmail"
         android:textAlignment="center"
+        android:textColor="#CE8328"
+        android:textSize="25sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/editTextEmail"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <Button
+    <TextView
         android:id="@+id/textNotMember"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
@@ -90,7 +90,9 @@
         android:autoSizeTextType="uniform"
         android:text="Don't have an account? Sign Up here"
         android:textAlignment="center"
-        android:textColor="#CE8328"
+        android:textColor="#000000"
+        android:textSize="20sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/buttonLogin" />
