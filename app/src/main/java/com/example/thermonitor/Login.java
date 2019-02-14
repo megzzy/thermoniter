@@ -22,11 +22,12 @@ import org.w3c.dom.Text;
 public class Login extends AppCompatActivity implements View.OnClickListener {
 
     private Button         buttonLogin;
-    private TextView         textNotMember;
+    private TextView       textNotMember;
     private EditText       editTextPassword;
     private EditText       editTextEmail;
     private ProgressDialog progressDialog;
     private FirebaseAuth   firebaseAuth;
+    private TextView       textForgotPass;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -37,12 +38,19 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
         buttonLogin      = (Button) findViewById(R.id.buttonLogin);
         textNotMember    = (TextView) findViewById(R.id.textNotMember);
         editTextPassword = (EditText) findViewById(R.id.editTextPassword);
+        textForgotPass   = (TextView) findViewById(R.id.textForgotPass);
 
 
 
 
         buttonLogin.setOnClickListener(this);
         textNotMember.setOnClickListener(this);
+        textForgotPass.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Login.this,ResetPass.class));
+            }
+        });
 
         progressDialog   = new ProgressDialog(this);
         firebaseAuth     = FirebaseAuth.getInstance();

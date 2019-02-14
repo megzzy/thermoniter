@@ -28,6 +28,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
     private EditText editusername;
     private EditText getEditTextPassword2;
 
+
     private ProgressDialog progressDialog;
     private FirebaseAuth firebaseAuth;
 
@@ -49,6 +50,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         editusername         = (EditText) findViewById(R.id.editusername);
         getEditTextPassword2 = (EditText) findViewById(R.id.editTextPassword2);
 
+
         firebaseAuth     = firebaseAuth.getInstance();
         if (firebaseAuth.getCurrentUser()!= null){
             finish();
@@ -57,6 +59,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         buttonRegister.setOnClickListener(this);
         textMember.setOnClickListener(this);
+
 
 
 
@@ -131,6 +134,8 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             if (view == textMember) {
                 startActivity(new Intent(this, Login.class));
             }
+
+
 
 
         }

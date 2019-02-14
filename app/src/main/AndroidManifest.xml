@@ -11,7 +11,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".SQL"></activity>
+        <activity android:name=".ResetPass"></activity>
+        <activity android:name=".SQL" />
         <activity android:name=".PHP" />
         <activity android:name=".JavaScript" />
         <activity android:name=".Python" />
