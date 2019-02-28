@@ -9,7 +9,7 @@
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="100dp"
-        android:layout_height="65dp"
+        android:layout_height="48dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
         app:layout_constraintStart_toStartOf="parent"
@@ -25,22 +25,34 @@
         app:layout_constraintGuide_begin="30dp" />
 
 
-
     <TextView
         android:id="@+id/textView"
         android:layout_width="292dp"
-        android:layout_height="65dp"
+        android:layout_height="56dp"
         android:layout_marginTop="8dp"
         android:text="C"
         android:textAlignment="center"
-        android:textSize="30sp"
+        android:textColor="#CE8328"
+        android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toEndOf="@+id/imageView"
         app:layout_constraintTop_toTopOf="@+id/guideline3"
-        tools:background="#FFFF00"
-        android:textColor="#CE8328"/>
+        tools:background="#FFFF00" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="0dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="16dp"
+        android:text="TextView"
+        android:textAlignment="center"
+        android:textColor="#CE8328"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" /><![CDATA[
 
     />
+]]>
 </android.support.constraint.ConstraintLayout>
