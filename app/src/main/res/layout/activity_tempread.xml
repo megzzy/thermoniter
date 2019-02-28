@@ -4,17 +4,20 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".tempread">
+    tools:context=".tempread"
+    android:background="@drawable/weather">
 
     <TextView
         android:id="@+id/textView5"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginStart="120dp"
-        android:layout_marginTop="300dp"
-        android:layout_marginEnd="120dp"
-        android:layout_marginBottom="300dp"
-        android:text="Good to see you, but we have nothing to show :)"
+        android:layout_marginStart="100dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="250dp"
+        android:text="Good to see you, we have nothing to show here ;)"
+        android:textColor="#CE8328"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
